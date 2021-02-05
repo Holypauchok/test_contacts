@@ -1,0 +1,64 @@
+.contact {
+  margin: 15px;
+  border-bottom: 2px black solid;
+  width: 250px;
+}
+
+.contact__field {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.contacts__title {
+  margin: 20px 0 15px 15px;
+  color: #343434;
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contacts__menu {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.contacts__btn {
+  padding: 1px 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 2px solid #0d0d0e68;
+  background: rgba(235, 234, 234, 0.347);
+  outline: none;
+  cursor: pointer;
+}
+
+.contacts__input {
+  width: 200px;
+  padding-left: 15px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 2px solid #0d0d0e68;
+  background: rgba(235, 234, 234, 0.347);
+  outline: none;
+}
+.contacts__input-margin {
+  margin-left: 0px;
+}
+
+.search__button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  top: -2px;
+  left: 40px;
+}
+.search__button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
