@@ -1,7 +1,7 @@
 To install dependencies:
 
 ```shell
-$ yarn install or nmp install
+$ yarn install or npm install
 ```
 
 Create first build:
